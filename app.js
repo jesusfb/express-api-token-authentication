@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(cors());
 
-mongoose.connect('mongodb://' + HOST_NAME + '/' + DATABASE_NAME);
+mongoose.connect('mongodb+srv://jesusfb:Dove3229-@cluster0.yx9sjqo.mongodb.net/tester');
 
 var usersRoutes = require('./routes/users');
 var eventsRoutes = require('./routes/events');
